@@ -9,14 +9,16 @@ import BackToTopComponent from './components/BackToTopComponent'
 const App = () => {
   return (
     // <div className="min-h-screen h-auto bg-fixed bg-cover bg-center bg-[url('/img/background.png')]">
-    <div className="fixed inset-0 -z-10">
-      <img 
-        src="/img/background.png"
-        className="w-full h-full object-cover"
-      />
-    {/* </div> */}
-
+    <div className="min-h-screen">
       <Navbar items={menuData}/>
+      
+      <div className="fixed inset-0 -z-10">
+        <img 
+          src="/img/background.png"
+          className="w-full h-full object-cover -z-10"
+        />
+      </div>`
+
       <Hero />
       <About />
       <Skills />
