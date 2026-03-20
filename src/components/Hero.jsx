@@ -9,7 +9,7 @@ const Hero = () => {
             <h1 className="text-xl md:text-6xl font-bold mb-2">
                 {heroData.greetings}
             </h1>
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+            <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
                 {heroData.name}
             </h1>
 
