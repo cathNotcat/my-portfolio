@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center text-center text-white">
         <div className="max-w-[75%]">
-            <h1 className="text-xl md:text-8xl font-bold mb-2">
+            <h1 className="text-xl md:text-6xl font-bold mb-2">
                 {heroData.greetings}
             </h1>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
                 {heroData.name}
             </h1>
 

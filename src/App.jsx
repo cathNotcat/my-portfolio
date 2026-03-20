@@ -8,7 +8,7 @@ import BackToTopComponent from './components/BackToTopComponent'
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-fixed bg-cover bg-center bg-[url('/img/background.png')]">
+    <div className="min-h-screen h-auto bg-fixed bg-cover bg-center bg-[url('/img/background.png')]">
 
       <Navbar items={menuData}/>
       <Hero />
