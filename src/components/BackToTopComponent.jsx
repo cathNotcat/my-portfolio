@@ -26,14 +26,15 @@ const BackToTopComponent = () => {
     <button 
         onClick={scrollToTop}
         className={
-            `fixed bottom-8 right-8 z-50 
-                  flex items-center gap-2 px-8 py-4
-                  rounded-full
-                  bg-white/10 backdrop-blur-md
-                  border border-white/20
-                  text-white text-xl
-                  hover:bg-white/20 transition
-                  ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+            `fixed bottom-6 left-1/2 -translate-x-1/2 
+              md:left-auto md:right-8 md:translate-x-0 z-50 
+              flex items-center gap-2 px-8 py-4
+              rounded-full
+              bg-white/10 backdrop-blur-md
+              border border-white/20
+              text-white text-xl
+              hover:bg-white/20 transition
+              ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
     >
         Back To Top 
         <FaArrowUp />
